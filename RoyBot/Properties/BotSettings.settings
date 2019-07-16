@@ -2,7 +2,7 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RoyBot.Properties" GeneratedClassName="BotSettings">
   <Profiles />
   <Settings>
-    <Setting Name="DiscordToken" Type="System.String" Scope="Application">
+    <Setting Name="DiscordToken" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>

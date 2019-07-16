@@ -21,7 +21,7 @@ namespace RoyBot
         IServiceProvider ServiceProvider;
 
         public async Task MainAsync()
-        {
+        {           
             ConfigureLogger();
             ServiceProvider = ConfigureServices();
 

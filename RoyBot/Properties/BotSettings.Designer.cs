@@ -23,12 +23,15 @@ namespace RoyBot.Properties {
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string DiscordToken {
             get {
                 return ((string)(this["DiscordToken"]));
+            }
+            set {
+                this["DiscordToken"] = value;
             }
         }
     }
